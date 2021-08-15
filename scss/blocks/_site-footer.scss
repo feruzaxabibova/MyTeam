@@ -1,0 +1,132 @@
+//SITE-FOOTER   
+.site-footer {
+    background-color: #002529;
+    padding: 48px 0;
+}
+
+.site-footer__content {
+    display: flex;
+}
+
+.site-footer__content-link {
+    margin-right: 125px;
+}
+
+.site-footer__content-link--logo {
+    margin-bottom: 25px;
+}
+
+.site-footer__address-text {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.site-footer__link {
+    margin-left: auto;
+}
+
+.site-footer__link-icon {
+    text-align: right;
+    margin-bottom: 42px;
+}
+
+.link-icon {
+    text-decoration: none;
+}
+.link-icon ~ .link-icon {
+    margin-left: 16px;
+}
+
+.link-icon:hover path {
+    fill: #F67E7E;
+    transition: 0.4s ease;
+}
+
+.site-footer__copy {
+    margin: 0;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+
+@include breakpoint-down (820px) {
+    .site-footer__content {
+        display: block;
+    }
+    .site-footer__content-link {
+        display: inline-block;
+    }
+    .site-footer__address {
+        text-align: right;
+        margin-top: -100px;
+    }
+    .site-footer__link-icon {
+        text-align: left;
+        margin-top: 33px;
+        display: inline-block;
+    }
+    .site-footer__copy {
+        margin-top: -70px;
+    }
+}
+@include breakpoint-down (480px) {
+    .site-footer__content-link {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+    .site-footer__address {
+        display: flex;
+        margin-top: 24px;
+        text-align: center;
+        justify-content: center;
+    }
+    .site-footer__link {
+        display: flex;
+        flex-direction: column;
+    }
+    .site-footer__copy {
+        margin-top: 0;
+    }
+    .site-footer__content-link {
+        text-align: center;
+    }
+    .site-footer__content-link--logo {
+        width: 100px;
+        height: 24px;
+    }
+    .navigation-list {
+        justify-content: center;
+    }
+    .navigation-list__item {
+        margin-right: 14px;
+    }
+    .site-footer__link-icon {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .site-footer__copy {
+        text-align: center;
+        margin-top: 16px;
+    }
+}
+
+@include breakpoint-down (416px) {
+    .site-footer__content {
+        padding: 0 24px;
+    }
+    
+}

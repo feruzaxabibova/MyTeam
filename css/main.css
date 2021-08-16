@@ -1108,7 +1108,7 @@ body {
   padding: 76px 0;
   background-image: url(/images/left-top.svg);
   background-repeat: no-repeat;
-  background-position: calc(62% - 830px) 67px;
+  background-position-y: 63px;
 }
 
 .started-section__content {

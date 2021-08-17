@@ -1,0 +1,214 @@
+//BOUT-CLIENTS
+.about-clients {
+    background-color: #012F34;
+    padding: 140px 0;
+}
+
+.about-clients__list {
+    @include list;
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.about-clients__list-item {
+    margin-right: 80px;
+}
+
+.list-img__verge {
+    width: 165px;
+    height: 28px;
+    display: block;
+}
+
+.list-img__jakarta {
+    width: 184px;
+    height: 23px;
+    display: block;
+}
+
+.list-img__guardian {
+    width: 180px;
+    height: 28px;
+    display: block;
+}
+
+.list-img__techradar {
+    width: 165px;
+    height: 28px;
+    display: block;
+}
+
+.list-img__gadgets {
+    width: 98px;
+    height: 45px;
+    display: block;
+}
+
+
+@include breakpoint-down (1140px) {
+    .about-clients__list-item {
+        margin-right: 56px;
+    }
+}
+
+@include breakpoint-down (1050px) {
+    .list-img__verge {
+        width: 128px;
+        height: 25px;
+        display: block;
+    }
+    
+    .list-img__jakarta {
+        width: 176px;
+        height: 23px;
+        display: block;
+    }
+    
+    .list-img__guardian {
+        width: 172px;
+        height: 28px;
+        display: block;
+    }
+    
+    .list-img__techradar {
+        width: 150px;
+        height: 28px;
+        display: block;
+    }
+    
+    .list-img__gadgets {
+        width: 86px;
+        height: 40px;
+        display: block;
+    }
+}
+
+@include breakpoint-down (950px) {
+    .about-clients {
+        padding: 100px 0;
+    }
+    .about-clients__list-item {
+        margin-right: 40px;
+    }
+    .list-img__verge {
+        width: 115px;
+        height: 25px;
+        display: block;
+    }
+    
+    .list-img__jakarta {
+        width: 162px;
+        height: 23px;
+        display: block;
+    }
+    
+    .list-img__guardian {
+        width: 152px;
+        height: 28px;
+        display: block;
+    }
+    
+    .list-img__techradar {
+        width: 132px;
+        height: 28px;
+        display: block;
+    }
+    
+    .list-img__gadgets {
+        width: 82px;
+        height: 37px;
+        display: block;
+    }
+}
+
+@include breakpoint-down (820px) {
+    .about-clients__list {
+        margin-top: 52px;
+        justify-content: center;
+    }
+    .list-img__verge {
+        width: 100px;
+        height: 17px;
+        display: block;
+    }
+    
+    .list-img__jakarta {
+        width: 114px;
+        height: 14px;
+        display: block;
+    }
+    
+    .list-img__guardian {
+        width: 112px;
+        height: 17px;
+        display: block;
+    }
+    
+    .list-img__techradar {
+        width: 103px;
+        height: 17px;
+        display: block;
+    }
+    
+    .list-img__gadgets {
+        width: 61px;
+        height: 28px;
+        display: block;
+    }
+}
+
+@include breakpoint-down (820px) {
+    .about-clients  {
+        padding: 88px 0;
+    }
+    .about-directors__title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .about-clients__list {
+        flex-wrap: wrap;
+        margin-left: 32px;
+    }
+    .about-clients__list-item {
+        margin-bottom: 40px;
+    }
+
+    .list-img__verge {
+        width: 165px;
+        height: 28px;
+        display: block;
+    }
+    
+    .list-img__jakarta {
+        width: 184px;
+        height: 23px;
+        display: block;
+    }
+    
+    .list-img__guardian {
+        width: 180px;
+        height: 28px;
+        display: block;
+    }
+    
+    .list-img__techradar {
+        width: 165px;
+        height: 28px;
+        display: block;
+    }
+    
+    .list-img__gadgets {
+        width: 98px;
+        height: 45px;
+        display: block;
+    }
+}
+
+@include breakpoint-down (500px) {
+    .about-clients__list {
+        flex-direction: column;
+        margin-left: 32px;
+    }
+}

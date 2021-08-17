@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Myteam</title>
+    <title>Contact</title>
    <link rel="stylesheet" href="/css/main.min.css">
 </head>
 <body>
 
     <header class="site-header">
+        <div class="contact-bg">
         <div class="container">
             <div class="site-header__content">
                 <a class="site-header__logo" href="#">
@@ -19,119 +20,86 @@
                 <nav class="site-header__navigation">
                     <ul class="navigation-list">
                         <li class="navigation-list__item">
-                            <a class="navigation-list__item-link" href="#">home</a>
+                            <a class="navigation-list__item-link" href="/index.html">home</a>
                         </li>
                         <li class="navigation-list__item">
                             <a class="navigation-list__item-link" href="/about.html">about</a>
                         </li>
                     </ul>
                 </nav>
-                <a class="site-header__link" href="/contact.html">contact us</a>
+                <button class="site-header__link" type="button">contact us</button>
                 <button class="site-header__burger">
                     <img class="site-header__burger-img" src="/images/burger.svg" alt="burger menyu">
                 </button>
             </div>  <!-- site-header__content -->
            
-            <div class="site-header__hero">
-                <div class="site-header__hero-right">
-                    <h1 class="hero-right__title">Find the best <span class="hero-right__title-red">talent</span> </h1>
-                </div>
-                <div class="site-header__hero-left">
-                    <span class="site-header__hero-left--span"></span>
-                    <p class="site-header__hero-text">Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
-                </div>
-            </div>
-        </div> <!-- container -->
-    </header>  <!-- header -->
+            <div class="site-header__hero-contact">
+                <div class="site-header__hero-right--contact">
+                    <h1 class="hero-right__title-small">Contact</h1>
+                    <p class="hero-right__text">Ask us about</p>
 
-    <main>
-        <section class="intro-section">
-            <div class="container">
-                <span class="intr-section__span"></span>
-                <div class="intro-section__content">
-                    <h2 class="intro-section__content-title">Build & manage distributed teams<br> like no one else.</h2>
-                    <ul class="intro-section__content-image">
-                        <li class="intro-section__content-item">
+                    <ul class="contact-list">
+                        <li class="contact-list__center">
                             <div class="intro-section__content-item__img">
                               <img class="content-item__imgage" src="images/people.svg" alt="people image" width="56" height="56">
                             </div>
                             <div class="intro-section__content-info">
-                                <p class="intro-section__content-name">Experienced Individuals</p>
-                                <p class="intro-section__content-text">Our network is made up of highly experienced professionals who are passionate about what they do.</p>
+                                <p class="intro-section__content-text contact-text">The quality of our talent network</p>
                             </div>
                         </li>
-                        <li class="intro-section__content-item">
+                        <li class="contact-list__center">
                             <div class="intro-section__content-item__img">
                                 <img class="content-item__imgage" src="images/services.svg" alt="services image" width="56" height="56">
                             </div>
                             <div class="intro-section__content-info">
-                                <p class="intro-section__content-name">Easy to Implement</p>
-                                <p class="intro-section__content-text">Our processes have been refined over years of implementation meaning our teams always deliver.</p>
+                                <p class="intro-section__content-text contact-text">Usage & implementation of our software</p>
                             </div>
                         </li>
-                        <li class="intro-section__content-item">
+                        <li class="contact-list__center">
                             <div class="intro-section__content-item__img">
                                 <img class="content-item__imgage" src="images/statistics.svg" alt="statistics image" width="56" height="56">
                             </div>
                             <div class="intro-section__content-info">
-                                <p class="intro-section__content-name">Enhanced Productivity</p>
-                                <p class="intro-section__content-text">Our customized platform with in-built analytics helps you manage your distributed teams.</p>
+                                <p class="intro-section__content-text contact-text">How we help drive innovation</p>
                             </div>
                         </li>
                     </ul>
                 </div>
-            </div> <!-- container -->
-        </section> <!-- intro-section -->
+                <div class="site-contact__hero-left">
+                    <form action="#" method="POST">
+                        <div class="input">
+                            <input class="hero-left__input" type="name" placeholder="Name" required>
+                            <p class="input-red">This field is required</p>
+                        </div>
+                        
+                        <div class="input">
+                            <input class="hero-left__input" type="email" placeholder="Email Address" required>
+                            <p class="input-red">This field is required</p>
+                        </div>
 
-        <section class="stories-section"> 
-            <div class="container">
-                <h2 class="stories-section__title">Delivering real results for top companies. Some of our <span class="title-grey">success stories.</span></h2>
+                        <div class="input">
+                            <input class="hero-left__input" type="text" placeholder="Company Name" required>
+                            <p class="input-red">This field is required</p>
+                        </div>
 
-                <ul class="stories-section__list">
-                    <li class="stories-section__item">
-                        <div class="stories-section__content">
-                            <p class="stories-section__content-text">“The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</p>
+                        <div class="input">
+                            <input class="hero-left__input" type="text" placeholder="Title" required>
+                            <p class="input-red">This field is required</p>
                         </div>
-                        <div class="stories-section__author">
-                            <p class="stories-section__author-name">Kady Baker</p>
-                            <p class="stories-section__author-info">Product Manager at Bookmark</p>
+                        
+                        <div class="input">
+                            <textarea class="hero-left__input">Message</textarea>
+                            <p class="input-red">This field is required</p>
                         </div>
-                        <img class="stories-section__item-img" src="images/kady.png" alt="girl image" width="62" height="62">
-                    </li>
-                    <li class="stories-section__item">
-                        <div class="stories-section__content">
-                            <p class="stories-section__content-text">“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”</p>
-                        </div>
-                        <div class="stories-section__author">
-                            <p class="stories-section__author-name">Aiysha Reese</p>
-                            <p class="stories-section__author-info">Founder of Manage</p>
-                        </div>
-                        <img class="stories-section__item-img" src="images/Aisha.png" alt="girl image" width="62" height="62">
-                    </li>
-                    <li class="stories-section__item">
-                        <div class="stories-section__content">
-                            <p class="stories-section__content-text">“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”</p>
-                        </div>
-                        <div class="stories-section__author">
-                            <p class="stories-section__author-name">Arthur Clarke</p>
-                            <p class="stories-section__author-info">Co-founder of MyPhysio</p>
-                        </div>
-                        <img class="stories-section__item-img" src="images/Arthur.png" alt="girl image" width="62" height="62">
-                    </li>
-                </ul>
-            </div> <!-- container -->
-        </section>   <!-- stories-section  -->
-       
 
-        <section class="started-section">
-            <div class="container">
-                <div class="started-section__content">
-                    <h2 class="started-section__text">Ready to get started?</h2>
-                    <a class="started-section__button" href="/contact.html">contact us</a>
+                        <button class="input-button" type="submit">submit</button>
+
+                    </form>
                 </div>
-            </div> <!-- container -->
-        </section> <!-- started-section -->
-    </main>  
+            </div>
+        </div> <!-- container -->
+        </div>
+    </header>  <!-- header -->
 
     <footer class="site-footer"> 
         <div class="container">
@@ -142,7 +110,7 @@
                     </a>
                     <ul class="navigation-list">
                         <li class="navigation-list__item">
-                            <a class="navigation-list__item-link" href="#">home</a>
+                            <a class="navigation-list__item-link" href="/index.html">home</a>
                         </li>
                         <li class="navigation-list__item">
                             <a class="navigation-list__item-link" href="/about.html">about</a>
@@ -180,6 +148,6 @@
     </footer> 
 
 
-  
+    
 </body>
 </html>

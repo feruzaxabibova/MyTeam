@@ -53,6 +53,10 @@
 }
 
 .site-header__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 153px;
     height: 48px;
     background-color: transparent;

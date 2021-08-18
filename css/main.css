@@ -2043,30 +2043,7 @@ form {
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.6;
-  position: relative;
-}
-
-.input-red {
-  display: none;
-  margin: 0;
-  padding-left: 21px;
-  font-family: 'Livvic';
-  font-style: italic;
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 13px;
-  color: #F67E7E;
-  position: absolute;
-  margin-top: -35px;
-}
-
-.hero-left__input:focus {
-  border-bottom: 2px solid #F67E7E;
-  color: #F67E7E;
-}
-
-.input:focus-within .input-red {
-  display: block;
+  resize: none;
 }
 
 .input-button {
@@ -2130,7 +2107,7 @@ form {
 
 @media only screen and (max-width: 670px) {
   .hero-left__input {
-    width: 470px;
+    width: 481px;
     margin-left: 20px;
   }
   .contact-list {
